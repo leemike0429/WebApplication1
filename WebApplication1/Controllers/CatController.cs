@@ -13,5 +13,10 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public ActionResult dinner()
+        {
+            var i = 0;
+            return View();
+        }
     }
 }
